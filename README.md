@@ -6,6 +6,8 @@ This project implements a lightweight drift detection and compensation system fo
 
 It uses multiple MPU6050 sensors, performs calibration to remove bias, applies drift compensation, and uses a median voting algorithm to obtain a reliable output. The results are displayed on a 16×2 LCD.
 
+![Block Diagram](Block_Diagram.png)
+
 ---
 
 ## 🎯 Objectives
@@ -95,6 +97,8 @@ V = median(S1, S2, S3)
 
 S1:xxx S2:xxx  
 S3:xxx V:xxx  
+
+![Output](Result.png)
 
 ---
 
